@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+
+pids
+*.pid
+*.seed
+
+node_modules
+
+npm-debug.log
+
+package-lock.json
+
+yarn.lock
+
+.vscode

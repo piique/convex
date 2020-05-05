@@ -1,0 +1,183 @@
+Pontif�cia Universidade Cat�lica de Minas Gerais 
+Instituto de Ci�ncias Exatas e Inform�tica (ICEI) 
+Engenharia de Computa��o 
+Disciplina: Algoritmos e Estruturas de Dados I 
+Professor: Sandro Jer�nimo de Almeida 
+ 
+
+ 
+
+ 
+
+Lista de Exerc�cios 8 � Recursividade e Vetores 
+
+ 
+ 
+Construa  um  algoritmo  em  linguagem  de  programa��o  C  que  tenha  um  menu  principal  para 
+acessar  fun��es  ou  procedimentos  que  resolvam  os  exerc�cios  a  seguir.  Ap�s  realizar  uma  das 
+opera��es  indicadas  no  menu,  o  menu  dever�  voltar  a  ser  exibido  para  que  o  usu�rio  possa 
+escolher uma nova op��o. Lembre-se de cercar op��es inv�lidas e criar uma op��o para sair do 
+menu. 
+ 
+
+Recursividade � Parte 1 
+
+ 
+
+ 
+1) Escreva uma fun��o recursiva divide(A,B) para calcular a divis�o inteira de A por B utilizando 
+apenas subtra��es.  
+
+ 
+
+2)  Escreva  uma  fun��o  recursiva  que  recebe  um  n�mero  inteiro  e  retorne  o  n�mero  de  d�gitos. 
+Exemplo. N = 50 � sa�da dever� ser 2. 
+
+ 
+
+3) Escreva uma fun��o recursiva que recebe um n�mero inteiro e retorne a soma dos seus d�gitos. 
+Exemplo = N = 45. Sa�da dever� ser 9. 
+ 
+4)  Escreva  uma  fun��o  recursiva  que  retorne  o  resultado  da  multiplica��o  dos  dois  par�metros 
+utilizando apenas o operador somas. 
+  
+5)  Escreva  uma  fun��o  recursiva  que  calcule  o  n-�simo  termo  de  uma  progress�o  geom�trica 
+onde o primeiro termo e a raz�o s�o informados pelo usu�rio. 
+  
+ 
+
+Vetores � Parte 2 
+
+ 
+6)  Fa�a  um  programa  que  l�  10  n�meros  informados  pelo  usu�rio  e  armazena  em  um  vetor. 
+Imprima os elementos em ordem reversa da leitura. 
+ 
+7)  Fa�a  um  programa  que  l�  10  n�meros  informados  pelo  usu�rio  e  armazena  em  um  vetor. 
+Imprima os elementos do vetor cujo valor seja igual ao �ndice da posi��o. 
+ 
+
+8)  Fa�a  um  programa  que  preenche  um  vetor  de  15  posi��es  com  n�meros  aleat�rios.  Use  a 
+fun��o  rand  da  biblitoeca  <stdlib.h>  preencher  o  vetor  com  n�meros  inteiros  gerados 
+aleatoriamente entre 0 e 10. 
+ 
+9) Construa um algoritmo que gere 15 temperaturas aleat�rias entre 18 e 40 C e armazene em um 
+vetor. Imprima a maior, a menor e a temperatura m�dia. Mostre tamb�m o n�mero de vezes que a 
+temperatura foi abaixo da m�dia.  
+ 
+10) Fa�a um algoritmo que preenche e imprime um vetor de tamanho 10 usando a seguinte regra: 
+- Se a posi��o do vetor � m�ltipla de 2, deve-se armazenar 1. Caso contr�rio, armazene 0. 
+ 
+11)  Construa  um  algoritmo  que  leia  N  n�meros  entre  0  e  9  informados  pelo  usu�rio  e  depois 
+armazene  em  cada  posi��o  i  de  um  vetor  de  10  posi��es  o  n�mero  de  vez  que  o  n�mero  i 
+apareceu. 
+ 
+12)  Fa�a  um  algoritmo  que  preenche  um  vetor  com  os  primeiros  100  elementos  da  s�rie  de 
+Fibonacci. Ap�s preencher o vetor, imprima seu conte�do. 
+ 
+13)  Construa  um  algoritmo  que  preenche  um  vetor  com  o  resultado  da  fun��o  f(x)  =  3x�  +  2x� 
++1x -5, onde X � o �ndice da posi��o do vetor. Ap�s preencher o vetor, imprima seu conte�do. 
+ 
+14)  Fa�a  um  algoritmo  que  armazena  em  um  vetor  n  n�meros  digitados  pelo  usu�rio. 
+Posteriormente, mostre o segundo menor valor do vetor. 
+ 
+ 
+ 
+Informa��es sobre c�pias 
+ 
+As quest�es s�o individuais. Em caso de c�pias de trabalho a pontua��o ser� zero para os autores 
+originais e copiadores. N�o ser�o aceitas justificativas como: �Fizemos o trabalho juntos, por isso 
+est�o id�nticos�. 
+ 
+
+Pontif�cia Universidade Cat�lica de Minas Gerais 
+Instituto de Ci�ncias Exatas e Inform�tica (ICEI) 
+Engenharia de Computa��o 
+Disciplina: Algoritmos e Estruturas de Dados I 
+Professor: Sandro Jer�nimo de Almeida 
+ 
+
+ 
+
+ 
+
+Lista de Exerc�cios 8 � Recursividade e Vetores 
+
+ 
+ 
+Construa  um  algoritmo  em  linguagem  de  programa��o  C  que  tenha  um  menu  principal  para 
+acessar  fun��es  ou  procedimentos  que  resolvam  os  exerc�cios  a  seguir.  Ap�s  realizar  uma  das 
+opera��es  indicadas  no  menu,  o  menu  dever�  voltar  a  ser  exibido  para  que  o  usu�rio  possa 
+escolher uma nova op��o. Lembre-se de cercar op��es inv�lidas e criar uma op��o para sair do 
+menu. 
+ 
+
+Recursividade � Parte 1 
+
+ 
+
+ 
+1) Escreva uma fun��o recursiva divide(A,B) para calcular a divis�o inteira de A por B utilizando 
+apenas subtra��es.  
+
+ 
+
+2)  Escreva  uma  fun��o  recursiva  que  recebe  um  n�mero  inteiro  e  retorne  o  n�mero  de  d�gitos. 
+Exemplo. N = 50 � sa�da dever� ser 2. 
+
+ 
+
+3) Escreva uma fun��o recursiva que recebe um n�mero inteiro e retorne a soma dos seus d�gitos. 
+Exemplo = N = 45. Sa�da dever� ser 9. 
+ 
+4)  Escreva  uma  fun��o  recursiva  que  retorne  o  resultado  da  multiplica��o  dos  dois  par�metros 
+utilizando apenas o operador somas. 
+  
+5)  Escreva  uma  fun��o  recursiva  que  calcule  o  n-�simo  termo  de  uma  progress�o  geom�trica 
+onde o primeiro termo e a raz�o s�o informados pelo usu�rio. 
+  
+ 
+
+Vetores � Parte 2 
+
+ 
+6)  Fa�a  um  programa  que  l�  10  n�meros  informados  pelo  usu�rio  e  armazena  em  um  vetor. 
+Imprima os elementos em ordem reversa da leitura. 
+ 
+7)  Fa�a  um  programa  que  l�  10  n�meros  informados  pelo  usu�rio  e  armazena  em  um  vetor. 
+Imprima os elementos do vetor cujo valor seja igual ao �ndice da posi��o. 
+ 
+
+8)  Fa�a  um  programa  que  preenche  um  vetor  de  15  posi��es  com  n�meros  aleat�rios.  Use  a 
+fun��o  rand  da  biblitoeca  <stdlib.h>  preencher  o  vetor  com  n�meros  inteiros  gerados 
+aleatoriamente entre 0 e 10. 
+ 
+9) Construa um algoritmo que gere 15 temperaturas aleat�rias entre 18 e 40 C e armazene em um 
+vetor. Imprima a maior, a menor e a temperatura m�dia. Mostre tamb�m o n�mero de vezes que a 
+temperatura foi abaixo da m�dia.  
+ 
+10) Fa�a um algoritmo que preenche e imprime um vetor de tamanho 10 usando a seguinte regra: 
+- Se a posi��o do vetor � m�ltipla de 2, deve-se armazenar 1. Caso contr�rio, armazene 0. 
+ 
+11)  Construa  um  algoritmo  que  leia  N  n�meros  entre  0  e  9  informados  pelo  usu�rio  e  depois 
+armazene  em  cada  posi��o  i  de  um  vetor  de  10  posi��es  o  n�mero  de  vez  que  o  n�mero  i 
+apareceu. 
+ 
+12)  Fa�a  um  algoritmo  que  preenche  um  vetor  com  os  primeiros  100  elementos  da  s�rie  de 
+Fibonacci. Ap�s preencher o vetor, imprima seu conte�do. 
+ 
+13)  Construa  um  algoritmo  que  preenche  um  vetor  com  o  resultado  da  fun��o  f(x)  =  3x�  +  2x� 
++1x -5, onde X � o �ndice da posi��o do vetor. Ap�s preencher o vetor, imprima seu conte�do. 
+ 
+14)  Fa�a  um  algoritmo  que  armazena  em  um  vetor  n  n�meros  digitados  pelo  usu�rio. 
+Posteriormente, mostre o segundo menor valor do vetor. 
+ 
+ 
+ 
+Informa��es sobre c�pias 
+ 
+As quest�es s�o individuais. Em caso de c�pias de trabalho a pontua��o ser� zero para os autores 
+originais e copiadores. N�o ser�o aceitas justificativas como: �Fizemos o trabalho juntos, por isso 
+est�o id�nticos�. 
+ 
+
+

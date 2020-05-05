@@ -1,0 +1,8 @@
+/Tests,,,,,
+/Test/@TestId,/Test/@TestType,/Test/CommandLine,/Test/Input,/Test/Name,/Test/Output
+1,CMD,Examp1.EXE,1,Convert number to string,One
+2,CMD,Examp2.EXE,abc,Find succeeding characters,def
+3,GUI,Examp2.EXE /Verbose,123,Convert multiple numbers to strings,One Two Three
+4,GUI,Examp3.EXE,a1,Find correlated key,b1
+5,GUI,FinalExamp.EXE,This is a test,Count characters,14
+6,GUI,Examp2.EXE,Test Input,Another Test,10
